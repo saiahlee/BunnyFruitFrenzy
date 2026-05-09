@@ -365,6 +365,8 @@ def find_korean_font():
         "/Library/Fonts/NanumGothic.ttc",
         "C:\\Windows\\Fonts\\malgun.ttf",
         "C:\\Windows\\Fonts\\malgunbd.ttf",
+        "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "/usr/share/fonts/truetype/nanum/NanumGothic.ttf",
     ]:
         if os.path.exists(p): return p
     return None
